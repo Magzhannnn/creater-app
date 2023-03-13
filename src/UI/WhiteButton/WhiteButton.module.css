@@ -1,0 +1,13 @@
+.white-button {
+  padding: 17px 30px 23px;
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.white-button:hover {
+  cursor: pointer;
+  
+  font-size: 20px;
+}

@@ -1,0 +1,27 @@
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 100px;
+  margin: 20px 0;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: greenyellow;
+}
+
+
+@media (max-width: 630px) {
+  .dots {
+    padding: 0 50px;
+  }
+}

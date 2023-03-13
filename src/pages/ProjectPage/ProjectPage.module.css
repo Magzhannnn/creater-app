@@ -1,0 +1,45 @@
+.project {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.project-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-head_title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.project-head_btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+
+  padding: 17px 30px 20px;
+  background-color: #000;
+}
+
+.project-head_btn:hover {
+  background-color: rgb(106, 106, 106);
+  cursor: pointer;
+}
+
+.project-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 900px) {
+  .project-head_title {
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,38 @@
+.arrows {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.left,
+.right {
+  font-size: 105px;
+  color: #000;
+  position: absolute;
+  top: 66%;
+  z-index: 1;
+  /* width: 90px;
+  height: 0; */
+}
+
+.left {
+  left: 23%;
+}
+
+.right {
+  right: 23%;
+}
+
+@media (max-width: 1270px) {
+  .right {
+    right: 10%;
+  }
+  .left {
+    left: 10%;
+  }
+}

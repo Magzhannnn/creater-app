@@ -1,0 +1,22 @@
+.app {
+  font-family: "Roboto", sans-serif;
+  /* width: 1440px; */
+}
+
+.mini_error {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .app {
+    display: none;
+  }
+
+  .mini_error {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+
+    color: red;
+  }
+}

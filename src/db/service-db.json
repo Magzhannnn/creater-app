@@ -1,0 +1,32 @@
+[
+	{
+		"img": "img1",
+		"title": "What I can do for you",
+		"text": "Faster, better products that your users love. Here's all the services I provide:",
+		"points": [
+			"Design Strategy",
+			"Web and Mobile App Design",
+			"Front-end Development"
+		]
+	},
+	{
+		"img": "img2",
+		"title": "Applications I'm fluent in",
+		"text": "Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.",
+		"points": [
+			"Sketch",
+			"Webflow",
+			"Figma"
+		]
+	},
+	{
+		"img": "img3",
+		"title": "What you can expect",
+		"text": "I design products that are more than pretty. I make them shippable and usable.",
+		"points": [
+			"Clean and functional",
+			"Device and user friendly",
+			"Efficient and maintainable"
+		]
+	}
+]

@@ -1,0 +1,14 @@
+.dark-button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+
+  padding: 17px 30px 20px;
+  background-color: #000;
+}
+
+.dark-button:hover {
+  background-color: rgb(106, 106, 106);
+  cursor: pointer;
+}

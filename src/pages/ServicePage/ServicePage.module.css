@@ -1,0 +1,33 @@
+.service {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service-title {
+  text-align: center;
+  width: 768px;
+  margin: 50px auto;
+  margin-bottom: 0;
+
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.service-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 100px;
+}
+
+@media (max-width: 1100px) {
+  .service-title {
+    font-size: 34px;
+    width: 80%;
+  }
+  .service-items {
+    display: block;
+  }
+}

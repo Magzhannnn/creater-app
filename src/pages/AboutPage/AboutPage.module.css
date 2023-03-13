@@ -1,0 +1,143 @@
+.about {
+  width: 84.375%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left_title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 82px;
+  margin-bottom: 34px;
+}
+
+.title-highlighted {
+  color: rgba(255, 138, 86, 1);
+}
+
+.about-left_text {
+  width: 547px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #666666;
+
+  margin-bottom: 38px;
+}
+
+.about-left_button {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-right {
+  background-image: url("../../images/about_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 32em;
+  height: 34.65em;
+}
+
+.about-foot {
+  width: 65%;
+  margin: 120px auto;
+  margin-bottom: 60px;
+}
+
+.foot-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.foot-images {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  background-image: url("../../images/logoIpsum1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 141px;
+  height: 32px;
+}
+.img2 {
+  background-image: url("../../images/logoIpsum2.png");
+}
+.img3 {
+  background-image: url("../../images/logoIpsum3.png");
+}
+.img4 {
+  background-image: url("../../images/logoIpsum4.png");
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
+  cursor: pointer;
+  width: 160px;
+  height: 35px;
+}
+
+@media (max-width: 1170px) {
+  .about-right {
+    display: none;
+  }
+  .about-left {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about-left_title {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 892px) {
+  .about-foot {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-left {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about-left_title {
+    font-size: 52px;
+    line-height: 62px;
+    width: 407px;
+  }
+  .about-left_text {
+    font-size: 18px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 555px) {
+  .about-left {
+    margin-left: 20px;
+  }
+  .about-left_title {
+    font-size: 42px;
+    width: 407px;
+  }
+  .about-left_text {
+    font-size: 16px;
+    width: 380px;
+  }
+}

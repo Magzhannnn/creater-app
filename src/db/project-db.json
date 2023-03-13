@@ -1,0 +1,22 @@
+[
+	{
+		"img": "projectImg1",
+		"title": "Branding",
+		"text": "Soulful Rebrand"
+	},
+	{
+		"img": "projectImg2",
+		"title": "Product Design",
+		"text": "Datadash Product design"
+	},
+	{
+		"img": "projectImg3",
+		"title": "Web Design",
+		"text": "Maize Website Design"
+	},
+	{
+		"img": "projectImg4",
+		"title": "Graphic Design",
+		"text": "Micro GraphSite Design"
+	}
+]
